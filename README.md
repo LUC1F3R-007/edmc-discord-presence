@@ -12,11 +12,11 @@ DiscordPresence\LICENSE). The original hasn't been updated since 2021.
 
 WHAT'S IN THIS ZIP
 ------------------
-README.txt                  - this file  
-SECURITY.txt                - security changes made in this patch  
-DiscordPresence\load.py     - the plugin itself  
-DiscordPresence\L10n\       - translations (German, French, Portuguese, Russian)  
-DiscordPresence\LICENSE     - original license  
+  README.txt                  - this file  
+  SECURITY.txt                - security changes made in this patch  
+  load.py     - the plugin itself  
+  L10n       - translations (German, French, Portuguese, Russian)  
+  LICENSE     - original license  
 
 
 REQUIREMENTS
@@ -75,31 +75,10 @@ TROUBLESHOOTING
       to connect. Run both normally.
 
   Plugin not listed / errors in EDMC
-    - Check the folder layout (install step 4).
-    - Make sure the old plugin is gone (install step 3).
+    - Check the folder layout (check install step 4).
+    - Make sure the old plugin is gone (check install step 3).
 
   Still stuck? Send the EDMC log file:
       %TEMP%\EDMarketConnector\EDMarketConnector-debug.log
     and search it for "DiscordPresence".
 
-
-WHY THE ORIGINAL PLUGIN STOPPED WORKING
----------------------------------------
-EDMC 6.0 (2025) broke the original 2021 plugin in three ways:
- 1. EDMC removed the old translation object the plugin used
-    (l10n.Translations), so the plugin crashed the first time it showed text.
- 2. EDMC became a 64-bit app. The plugin relied on a 32-bit Discord file
-    (discord_game_sdk.dll) that can't load in it, so it never connected and
-    kept retrying silently.
- 3. Because of 1 and 2, the plugin's state was never set up, so every game
-    event logged "AttributeError: ... has no attribute 'presence_state'"
-    (issue #33 on the original plugin's GitHub page).
-
-WHAT THIS PATCH CHANGES
- - Uses EDMC 6.x.x current translation method.
- - Talks to the Discord desktop app directly in plain Python. The Discord
-   files are gone.
- - Sets up its state when it loads, so game events can't crash it.
- - Reconnects by itself if Discord is closed and reopened.
- - Clears your Discord status when EDMC closes or the plugin is disabled.
- - The status messages and translations are the same as the original.
