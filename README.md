@@ -12,11 +12,11 @@ DiscordPresence\LICENSE). The original hasn't been updated since 2021.
 
 WHAT'S IN THIS ZIP
 ------------------
-  README.txt                  - this file
-  \SECURITY.txt                - security changes made in this patch
-  \DiscordPresence\load.py     - the plugin itself
-  \DiscordPresence\L10n\       - translations (German, French, Portuguese, Russian)
-  \DiscordPresence\LICENSE     - original license
+    README.txt                  - this file
+    SECURITY.txt                - security changes made in this patch
+    DiscordPresence\load.py     - the plugin itself
+    DiscordPresence\L10n\       - translations (German, French, Portuguese, Russian)
+    DiscordPresence\LICENSE     - original license
 
 
 REQUIREMENTS
