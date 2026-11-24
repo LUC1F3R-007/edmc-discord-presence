@@ -1,5 +1,5 @@
 # edmc-discord-presence
-EDMC Discord Presence, updated for EDMC 6.x.x
+EDMC Discord Presence, updated for EDMC 6.x.x (version 3.3.0)
 =================================================================
 
 Shows what you're doing in Elite Dangerous (star system, docked/supercruise/
