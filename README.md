@@ -55,7 +55,7 @@ CHECK THAT IT WORKS
 -------------------
   - In EDMC, File > Settings > Plugins: "DiscordPresence" should be listed
     as enabled.
-  - The "DiscordPresence" settings tab should say "Version 3.2.0-fix1".
+  - The "DiscordPresence" settings tab should say "Version 3.3.0".
     If it shows an older number, the old plugin is still installed (see step 3).
   - Your Discord profile should show "Connecting CMDR Interface" at the main
     menu, then your system and status once you're in game.
