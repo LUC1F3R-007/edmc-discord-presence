@@ -67,12 +67,12 @@ tab > tick "Disable Presence".
 TROUBLESHOOTING
 ---------------
   Nothing shows on Discord
-    - Make sure the Discord desktop app is running. The plugin checks for it
-      every 15 seconds, so you can start Discord after EDMC.
-    - Check the Activity Privacy setting (install step 6).
-    - Discord and EDMC must both run as the same Windows user. If one of them
-      is "Run as administrator" and the other isn't, they may not be able
-      to connect. Run both normally.
+    - Make sure the Discord desktop app is running. The plugin checks for it  
+      every 15 seconds, so you can start Discord after EDMC.  
+    - Check the Activity Privacy setting (install step 6).  
+    - Discord and EDMC must both run as the same Windows user. If one of them  
+      is "Run as administrator" and the other isn't, they may not be able  
+      to connect. Run both normally.  
 
   Plugin not listed / errors in EDMC  
     - Check the folder layout (check install step 4).  
