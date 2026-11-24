@@ -74,9 +74,9 @@ TROUBLESHOOTING
       is "Run as administrator" and the other isn't, they may not be able
       to connect. Run both normally.
 
-  Plugin not listed / errors in EDMC
-    - Check the folder layout (check install step 4).
-    - Make sure the old plugin is gone (check install step 3).
+  Plugin not listed / errors in EDMC  
+    - Check the folder layout (check install step 4).  
+    - Make sure the old plugin is gone (check install step 3).  
 
   Still stuck? Send the EDMC log file:
       %TEMP%\EDMarketConnector\EDMarketConnector-debug.log
