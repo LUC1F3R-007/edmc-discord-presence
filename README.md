@@ -17,7 +17,6 @@ This is a community patch of the original plugin by elite-kode:
 https://github.com/elite-kode/edmc-discord-presence (Apache License 2.0, see
 
 DiscordPresence\\LICENSE). The original hasn't been updated since 2021.
-Most of the original code is no
 
 
 
