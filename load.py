@@ -1,5 +1,5 @@
 #
-# KodeBlox Copyright 2019 Sayak Mukhopadhyay
+# LUC1F3R007, circa 2026
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,13 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# Community patch (3.3.0) for EDMC 6.x:
-#  * Uses EDMC 6's translation API (l10n.translations.tl).
-#  * Talks to Discord over its local IPC pipe in pure Python instead of the 32-bit
-#    discord_game_sdk.dll, which cannot load in EDMC 6's 64-bit build.
-#  * Initialises its state at startup, so journal events never hit missing attributes.
-#  * Uses Thread(daemon=True) instead of the deprecated setDaemon().
-#
+# The original plugin has not been updated since 2021, and has since stopped working with EDMC as of version 6.x.x.
+# I have updated the code base, and verified fuctionality of the plugin.
 
 from dataclasses import dataclass, field
 import json
