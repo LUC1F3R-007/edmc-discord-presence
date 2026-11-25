@@ -12,10 +12,10 @@ DiscordPresence\LICENSE). The original hasn't been updated since 2021.
 
 WHAT'S IN THIS ZIP
 ------------------
-  README.txt  - this file
-  load.py     - the plugin itself
-  L10n        - translations (German, French, Portuguese, Russian)
-  LICENSE     - original license
+  README.txt  - this file  
+  load.py     - the plugin itself  
+  L10n        - translations (German, French, Portuguese, Russian)  
+  LICENSE     - original license  
 
 
 REQUIREMENTS
