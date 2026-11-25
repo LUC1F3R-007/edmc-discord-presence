@@ -8,15 +8,14 @@ landed, etc.) on your Discord profile, through Elite Dangerous Market Connector 
 This is a community patch of the original plugin by elite-kode:
 https://github.com/elite-kode/edmc-discord-presence (Apache License 2.0, see
 DiscordPresence\LICENSE). The original hasn't been updated since 2021.
-Most of the original code is no
 
 
 WHAT'S IN THIS ZIP
 ------------------
-  README.txt  - this file  
-  load.py     - the plugin itself  
-  L10n        - translations (German, French, Portuguese, Russian)  
-  LICENSE     - original license  
+  README.txt  - this file
+  load.py     - the plugin itself
+  L10n        - translations (German, French, Portuguese, Russian)
+  LICENSE     - original license
 
 
 REQUIREMENTS
